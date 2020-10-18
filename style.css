@@ -6,7 +6,6 @@ body {
 #prof_pic {
     height: 100px;
     width: auto;
-    float: left;
     padding: 15px;
 }
 h2 {
@@ -14,6 +13,9 @@ h2 {
     margin-bottom: 0;
     color: green;
     font-family: 'Arbutus Slab', sans-serif;
+}
+.flex {
+    display: flex;
 }
 .date_of_entry {
     padding: 0;
