@@ -3,6 +3,14 @@ body {
     margin-left: 55px;
     margin-top: 40px;
 }
+#prof_pic {
+    height: 100px;
+    width: auto;
+    float: left;
+}
 h2 {
-
+    color: green;
+}
+p {
+    text-align: justify;
 }
