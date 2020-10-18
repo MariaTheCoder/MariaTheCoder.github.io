@@ -11,6 +11,7 @@ body {
 }
 h2 {
     margin-top: 50px;
+    margin-bottom: 0;
     color: green;
     font-family: 'Arbutus Slab', sans-serif;
 }
@@ -20,4 +21,13 @@ h2 {
 }
 p {
     text-align: left;
+}
+
+a.heading {
+    text-decoration: none;
+}
+
+a.heading:hover {
+    text-decoration: underline;
+    text-decoration-color: green;
 }
