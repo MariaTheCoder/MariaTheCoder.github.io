@@ -1,8 +1,10 @@
 body {
     font-family: sans-serif;
-    margin-left: 55px;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 40px;
 }
+
 #prof_pic {
     height: 100px;
     width: auto;
@@ -30,4 +32,22 @@ a.heading {
 a.heading:hover {
     text-decoration: underline;
     text-decoration-color: green;
+}
+
+@media only screen and (max-width: 600px) {
+    body  {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+    
+    #prof_pic {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+
 }
